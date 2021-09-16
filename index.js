@@ -25,7 +25,7 @@ let lowestDate = data[lowestIndex].quote_date;
 let highestDate = data[highIndex].quote_date;
 
 console.log(
-  `buy on this day ${lowestDate} and sell on this day  ${highestDate}`
+  `buy on this day ${lowestDate} at ${lowest} and sell on this day  ${highestDate} at ${highest}`
 );
 
 // let highest = -100000;
